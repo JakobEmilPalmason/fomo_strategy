@@ -50,7 +50,7 @@ ehthumbs.db
 Thumbs.db
 
 # Data files (large parquet files)
-1_raw_files
+1_raw_files/
 2_unadjusted_parquet/
 3_adjusted_data/
 audit/
