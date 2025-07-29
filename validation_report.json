@@ -1,0 +1,295 @@
+{
+  "file_structure": {
+    "minute_tickers": 23261,
+    "daily_file_exists": true,
+    "daily_file_path": "/Users/solmate/fomo_strategy/2_unadjusted_parquet/daily_data/daily_ohlcv_2015_present.parquet",
+    "issues": [
+      "No parquet files in /Users/solmate/fomo_strategy/2_unadjusted_parquet/minute_data/ticker=AEP",
+      "No parquet files in /Users/solmate/fomo_strategy/2_unadjusted_parquet/minute_data/ticker=EMGF",
+      "No parquet files in /Users/solmate/fomo_strategy/2_unadjusted_parquet/minute_data/ticker=ACI",
+      "No parquet files in /Users/solmate/fomo_strategy/2_unadjusted_parquet/minute_data/ticker=RDVT",
+      "No parquet files in /Users/solmate/fomo_strategy/2_unadjusted_parquet/minute_data/ticker=NVDA",
+      "No parquet files in /Users/solmate/fomo_strategy/2_unadjusted_parquet/minute_data/ticker=ASYS",
+      "No parquet files in /Users/solmate/fomo_strategy/2_unadjusted_parquet/minute_data/ticker=SRI",
+      "No parquet files in /Users/solmate/fomo_strategy/2_unadjusted_parquet/minute_data/ticker=CNNX",
+      "No parquet files in /Users/solmate/fomo_strategy/2_unadjusted_parquet/minute_data/ticker=DAPR",
+      "No parquet files in /Users/solmate/fomo_strategy/2_unadjusted_parquet/minute_data/ticker=EWSS"
+    ]
+  },
+  "date_coverage": {
+    "date_range": {
+      "start": "2015-07-27 00:00:00",
+      "end": "2025-07-25 00:00:00",
+      "total_unique_dates": 2515
+    },
+    "weekend_dates_found": 0,
+    "sample_ticker_gaps": 0,
+    "largest_gap_days": 0
+  },
+  "price_integrity": {
+    "negative_prices": [],
+    "extreme_moves": {
+      "total_extreme_moves": 33508,
+      "tickers_affected": 6620,
+      "likely_split_tickers": [
+        {
+          "ticker": "AABA",
+          "count": 1,
+          "min_return": -0.7244350282485875
+        },
+        {
+          "ticker": "AAC",
+          "count": 2,
+          "min_return": -0.5091252359974827
+        },
+        {
+          "ticker": "AACG",
+          "count": 3,
+          "min_return": -0.5573426573426574
+        },
+        {
+          "ticker": "AACIW",
+          "count": 21,
+          "min_return": -0.6993987975951904
+        },
+        {
+          "ticker": "AADI",
+          "count": 1,
+          "min_return": -0.5642458100558659
+        },
+        {
+          "ticker": "AAGR",
+          "count": 3,
+          "min_return": -0.5217391304347825
+        },
+        {
+          "ticker": "AAGRW",
+          "count": 3,
+          "min_return": -0.5116279069767442
+        },
+        {
+          "ticker": "AAMC",
+          "count": 3,
+          "min_return": -0.6869671132764921
+        },
+        {
+          "ticker": "AAN",
+          "count": 1,
+          "min_return": -0.707452725250278
+        },
+        {
+          "ticker": "AAPL",
+          "count": 1,
+          "min_return": -0.7415219437934419
+        },
+        {
+          "ticker": "AAQC.WS",
+          "count": 1,
+          "min_return": -0.8496042216358839
+        },
+        {
+          "ticker": "ABEO",
+          "count": 3,
+          "min_return": -0.5366847826086957
+        },
+        {
+          "ticker": "ABEOW",
+          "count": 14,
+          "min_return": -0.7777777777777778
+        },
+        {
+          "ticker": "ABIO",
+          "count": 7,
+          "min_return": -0.71875
+        },
+        {
+          "ticker": "ABLVW",
+          "count": 25,
+          "min_return": -0.567062818336163
+        },
+        {
+          "ticker": "ABP",
+          "count": 2,
+          "min_return": -0.5256124721603563
+        },
+        {
+          "ticker": "ABTS",
+          "count": 3,
+          "min_return": -0.549346016646849
+        },
+        {
+          "ticker": "ACABW",
+          "count": 18,
+          "min_return": -0.6774193548387097
+        },
+        {
+          "ticker": "ACACW",
+          "count": 19,
+          "min_return": -0.9731182795698925
+        },
+        {
+          "ticker": "ACAHW",
+          "count": 27,
+          "min_return": -0.7128712871287128
+        }
+      ]
+    },
+    "high_low_violations": [],
+    "ohlc_violations": []
+  },
+  "volume_data": {
+    "zero_volume_days": 165432,
+    "negative_volume": 0,
+    "null_volume": "0",
+    "median_volume": 87492.0,
+    "max_volume": 5747790606.0,
+    "tickers_with_zero_volume": 2729,
+    "worst_tickers": {
+      "ZBZX": 2143,
+      "ZTST": 2092,
+      "ZTEST": 1980,
+      "ARCM": 793,
+      "RODI": 683,
+      "PQIN": 647,
+      "SMDY": 640,
+      "EEH": 630,
+      "DEWJ": 565,
+      "OCTZ": 549
+    }
+  },
+  "minute_daily_consistency": [],
+  "corporate_actions": {
+    "potential_split_events": 15021,
+    "affected_tickers": 4660,
+    "known_splits_found": [
+      {
+        "ticker": "TSLA",
+        "date": "2020-08-31",
+        "return": -0.7748622029456944
+      },
+      {
+        "ticker": "AAPL",
+        "date": "2020-08-31",
+        "return": -0.7415219437934419
+      },
+      {
+        "ticker": "GOOGL",
+        "date": "2022-07-18",
+        "return": -0.9512290040482207
+      },
+      {
+        "ticker": "AMZN",
+        "date": "2022-06-06",
+        "return": -0.9490028606456886
+      }
+    ],
+    "top_affected": [
+      {
+        "ticker": "ZVZZT",
+        "count": 138,
+        "min_return": -0.9998724499936225
+      },
+      {
+        "ticker": "ZXZZT",
+        "count": 126,
+        "min_return": -0.9999999499999975
+      },
+      {
+        "ticker": "ZWZZT",
+        "count": 116,
+        "min_return": -0.9999999312499914
+      },
+      {
+        "ticker": "ZJZZT",
+        "count": 65,
+        "min_return": -0.9998805
+      },
+      {
+        "ticker": "LMFAW",
+        "count": 50,
+        "min_return": -0.8894736842105263
+      },
+      {
+        "ticker": "OXBRW",
+        "count": 43,
+        "min_return": -0.8311111111111111
+      },
+      {
+        "ticker": "IMACW",
+        "count": 41,
+        "min_return": -0.88
+      },
+      {
+        "ticker": "AGFSW",
+        "count": 38,
+        "min_return": -0.7542857142857143
+      },
+      {
+        "ticker": "NSPR.WS.B",
+        "count": 38,
+        "min_return": -0.8877551020408163
+      },
+      {
+        "ticker": "WHLRW",
+        "count": 36,
+        "min_return": -0.8060200668896321
+      },
+      {
+        "ticker": "AREBW",
+        "count": 35,
+        "min_return": -0.6557788944723618
+      },
+      {
+        "ticker": "EYEGW",
+        "count": 35,
+        "min_return": -0.8063439065108514
+      },
+      {
+        "ticker": "NSPR.WS",
+        "count": 35,
+        "min_return": -0.9365079365079365
+      },
+      {
+        "ticker": "AMRHW",
+        "count": 33,
+        "min_return": -0.7049356223175967
+      },
+      {
+        "ticker": "CREXW",
+        "count": 33,
+        "min_return": -0.9103448275862069
+      },
+      {
+        "ticker": "CHEKW",
+        "count": 32,
+        "min_return": -0.8108597285067873
+      },
+      {
+        "ticker": "ADILW",
+        "count": 31,
+        "min_return": -0.7727272727272727
+      },
+      {
+        "ticker": "BNTCW",
+        "count": 31,
+        "min_return": -0.8547567175018156
+      },
+      {
+        "ticker": "EDBLW",
+        "count": 30,
+        "min_return": -0.8075639599555061
+      },
+      {
+        "ticker": "RCRTW",
+        "count": 30,
+        "min_return": -0.7403598971722365
+      }
+    ]
+  },
+  "summary": {
+    "validation_date": "2025-07-28T19:00:50.961067",
+    "data_path": "/Users/solmate/fomo_strategy",
+    "split_adjustment_needed": true,
+    "evidence": "Found 4 known stock splits in data"
+  }
+}

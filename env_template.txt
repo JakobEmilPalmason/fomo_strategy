@@ -1,0 +1,10 @@
+# Copy this file to .env and fill in your actual keys
+# Polygon API Configuration
+POLYGON_KEY=your_actual_polygon_key_here
+POLYGON_API_KEY=your_actual_api_key_here
+POLYGON_ACCESS_KEY=your_actual_access_key_here
+POLYGON_SECRET_KEY=your_actual_secret_key_here
+
+# S3 Configuration
+S3_ENDPOINT=https://files.polygon.io
+BUCKET_NAME=flatfiles 
